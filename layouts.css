@@ -1,0 +1,44 @@
+li{
+    float: left;
+    list-style:none;
+    background-color:lightgray;
+    margin:.3em;
+    font-size:1em;
+    position:relative;
+    right:2.7em;
+    padding:.2em;
+    bottom:.5em;
+
+}
+.box{
+margin:3px;
+width:24%;
+float:left;
+}
+#header{
+    background-color:lightgray;
+}
+a{
+    color:purple;
+}/* Small sized screens */
+@media only screen and (max-width: 480px) {
+    .twelve-s { width: 100%; }
+}
+@media only screen and (max-width: 1160px){
+    #navbar {display: none;}
+    .bottom-l {width: 100%; }
+}
+/* Medium sized screens */
+@media only screen and (min-width: 481px) {
+    .four-m { width: 33.333333%; }
+    .five-m { width: 41.66666%; }
+    .seven-m { width: 58.33333%; }
+    .eight-m { width: 66.66666%; }
+}
+/* Large sized screens */
+@media only screen and (min-width: 1024px) {
+    .four-l { width: 33.333333%; }
+    .eight-l { width: 66.66666%; }
+
+}
+ 
